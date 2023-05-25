@@ -4,16 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b7b8cc32-9e68-498d-bbab-69d364e28fc5" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="b7b8cc32-9e68-498d-bbab-69d364e28fc5" name="Changes" comment="Initial Commit">
+      <change afterPath="$PROJECT_DIR$/src/test/java/base_urls/HerOkuAppBaseUrl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/base_urls/JsonPlaceHolderBaseUrl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/get_requests/Get04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/get_requests/Get05.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/get_requests/Get06.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -22,7 +32,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2QFBXE8Zsc6sM4uURw3xf7Zr42Y" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
@@ -44,54 +56,7 @@
       <recent name="get_requests" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Get03 (1)">
-    <configuration name="Get01.get01 (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Api129DT" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="get_requests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="get_requests" />
-      <option name="MAIN_CLASS_NAME" value="get_requests.Get01" />
-      <option name="METHOD_NAME" value="get01" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Get02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Api129DT" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="get_requests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="get_requests" />
-      <option name="MAIN_CLASS_NAME" value="get_requests.Get02" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Get02.get02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Api129DT" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="java.get_requests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="java.get_requests" />
-      <option name="MAIN_CLASS_NAME" value="java.get_requests.Get02" />
-      <option name="METHOD_NAME" value="get02" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.Get06.get06">
     <configuration name="Get03 (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Api129DT" />
       <extension name="coverage">
@@ -107,28 +72,76 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Get03" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Get04.get04" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Api129DT" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java.get_requests.*" />
+          <option name="PATTERN" value="get_requests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="java.get_requests" />
-      <option name="MAIN_CLASS_NAME" value="java.get_requests.Get03" />
+      <option name="PACKAGE_NAME" value="get_requests" />
+      <option name="MAIN_CLASS_NAME" value="get_requests.Get04" />
+      <option name="METHOD_NAME" value="get04" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Get05.testGet05" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Api129DT" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="get_requests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="get_requests" />
+      <option name="MAIN_CLASS_NAME" value="get_requests.Get05" />
+      <option name="METHOD_NAME" value="testGet05" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Get06" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Api129DT" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="get_requests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="get_requests" />
+      <option name="MAIN_CLASS_NAME" value="get_requests.Get06" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Get06.get06" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Api129DT" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="get_requests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="get_requests" />
+      <option name="MAIN_CLASS_NAME" value="get_requests.Get06" />
+      <option name="METHOD_NAME" value="get06" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Get06.get06" />
+        <item itemvalue="JUnit.Get06" />
+        <item itemvalue="JUnit.Get05.testGet05" />
+        <item itemvalue="JUnit.Get04.get04" />
         <item itemvalue="JUnit.Get03 (1)" />
-        <item itemvalue="JUnit.Get02" />
-        <item itemvalue="JUnit.Get01.get01 (1)" />
-        <item itemvalue="JUnit.Get03" />
-        <item itemvalue="JUnit.Get02.get02" />
       </list>
     </recent_temporary>
   </component>
@@ -141,6 +154,14 @@
       <option name="presentableId" value="Default" />
       <updated>1684939491061</updated>
     </task>
+    <task id="LOCAL-00001" summary="Initial Commit">
+      <created>1684941740874</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1684941740874</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -153,5 +174,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
   </component>
 </project>
