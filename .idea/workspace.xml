@@ -5,13 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b7b8cc32-9e68-498d-bbab-69d364e28fc5" name="Changes" comment="Initial Commit">
-      <change afterPath="$PROJECT_DIR$/src/test/java/base_urls/HerOkuAppBaseUrl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/base_urls/JsonPlaceHolderBaseUrl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/get_requests/Get04.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/get_requests/Get05.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/get_requests/Get06.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/get_requests/Get07.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/post_requests/Post01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/put_requests/Put01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test_data/JsonPlaceHolderTestData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/base_urls/JsonPlaceHolderBaseUrl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base_urls/JsonPlaceHolderBaseUrl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,80 +56,81 @@
       <recent name="get_requests" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Get06.get06">
-    <configuration name="Get03 (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.Put01.put01b">
+    <configuration name="Post01.post01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Api129DT" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="get_requests.*" />
+          <option name="PATTERN" value="post_requests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="get_requests" />
-      <option name="MAIN_CLASS_NAME" value="get_requests.Get03" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Get04.get04" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Api129DT" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="get_requests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="get_requests" />
-      <option name="MAIN_CLASS_NAME" value="get_requests.Get04" />
-      <option name="METHOD_NAME" value="get04" />
+      <option name="PACKAGE_NAME" value="post_requests" />
+      <option name="MAIN_CLASS_NAME" value="post_requests.Post01" />
+      <option name="METHOD_NAME" value="post01" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Get05.testGet05" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Post01.post01Map" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Api129DT" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="get_requests.*" />
+          <option name="PATTERN" value="post_requests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="get_requests" />
-      <option name="MAIN_CLASS_NAME" value="get_requests.Get05" />
-      <option name="METHOD_NAME" value="testGet05" />
+      <option name="PACKAGE_NAME" value="post_requests" />
+      <option name="MAIN_CLASS_NAME" value="post_requests.Post01" />
+      <option name="METHOD_NAME" value="post01Map" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Get06" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Put01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Api129DT" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="get_requests.*" />
+          <option name="PATTERN" value="put_requests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="get_requests" />
-      <option name="MAIN_CLASS_NAME" value="get_requests.Get06" />
+      <option name="PACKAGE_NAME" value="put_requests" />
+      <option name="MAIN_CLASS_NAME" value="put_requests.Put01" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Get06.get06" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Put01.put01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Api129DT" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="get_requests.*" />
+          <option name="PATTERN" value="put_requests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="get_requests" />
-      <option name="MAIN_CLASS_NAME" value="get_requests.Get06" />
-      <option name="METHOD_NAME" value="get06" />
+      <option name="PACKAGE_NAME" value="put_requests" />
+      <option name="MAIN_CLASS_NAME" value="put_requests.Put01" />
+      <option name="METHOD_NAME" value="put01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Put01.put01b" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Api129DT" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="put_requests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="put_requests" />
+      <option name="MAIN_CLASS_NAME" value="put_requests.Put01" />
+      <option name="METHOD_NAME" value="put01b" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -137,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Get06.get06" />
-        <item itemvalue="JUnit.Get06" />
-        <item itemvalue="JUnit.Get05.testGet05" />
-        <item itemvalue="JUnit.Get04.get04" />
-        <item itemvalue="JUnit.Get03 (1)" />
+        <item itemvalue="JUnit.Put01.put01b" />
+        <item itemvalue="JUnit.Put01" />
+        <item itemvalue="JUnit.Put01.put01" />
+        <item itemvalue="JUnit.Post01.post01Map" />
+        <item itemvalue="JUnit.Post01.post01" />
       </list>
     </recent_temporary>
   </component>
