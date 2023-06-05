@@ -5,13 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b7b8cc32-9e68-498d-bbab-69d364e28fc5" name="Changes" comment="Initial Commit">
-      <change afterPath="$PROJECT_DIR$/src/test/java/get_requests/Get07.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/post_requests/Post01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/put_requests/Put01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test_data/JsonPlaceHolderTestData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/base_urls/GoRestBaseUrl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/get_requests/Get08.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/get_requests/Get09.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/get_requests/Get10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/patch_requests/Patch01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pojos/JsonPlaceHolderPojo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/post_requests/Post02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/post_requests/Post03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test_data/HerOkuAppTestData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/base_urls/JsonPlaceHolderBaseUrl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base_urls/JsonPlaceHolderBaseUrl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/base_urls/HerOkuAppBaseUrl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base_urls/HerOkuAppBaseUrl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test_data/JsonPlaceHolderTestData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test_data/JsonPlaceHolderTestData.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,84 +58,84 @@
       <recent name="C:\Users\Efendy\IdeaProjects\Api129DT" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="base_urls" />
       <recent name="get_requests" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Put01.put01b">
-    <configuration name="Post01.post01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.Get10">
+    <configuration name="Get10" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Api129DT" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="post_requests.*" />
+          <option name="PATTERN" value="get_requests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="post_requests" />
-      <option name="MAIN_CLASS_NAME" value="post_requests.Post01" />
-      <option name="METHOD_NAME" value="post01" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Post01.post01Map" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Api129DT" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="post_requests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="post_requests" />
-      <option name="MAIN_CLASS_NAME" value="post_requests.Post01" />
-      <option name="METHOD_NAME" value="post01Map" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Put01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Api129DT" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="put_requests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="put_requests" />
-      <option name="MAIN_CLASS_NAME" value="put_requests.Put01" />
+      <option name="PACKAGE_NAME" value="get_requests" />
+      <option name="MAIN_CLASS_NAME" value="get_requests.Get10" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Put01.put01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Get10.get10" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Api129DT" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="put_requests.*" />
+          <option name="PATTERN" value="get_requests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="put_requests" />
-      <option name="MAIN_CLASS_NAME" value="put_requests.Put01" />
-      <option name="METHOD_NAME" value="put01" />
+      <option name="PACKAGE_NAME" value="get_requests" />
+      <option name="MAIN_CLASS_NAME" value="get_requests.Get10" />
+      <option name="METHOD_NAME" value="get10" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Put01.put01b" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Patch01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Api129DT" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="put_requests.*" />
+          <option name="PATTERN" value="patch_requests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="put_requests" />
-      <option name="MAIN_CLASS_NAME" value="put_requests.Put01" />
-      <option name="METHOD_NAME" value="put01b" />
+      <option name="PACKAGE_NAME" value="patch_requests" />
+      <option name="MAIN_CLASS_NAME" value="patch_requests.Patch01" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Patch01.patch01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Api129DT" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="patch_requests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="patch_requests" />
+      <option name="MAIN_CLASS_NAME" value="patch_requests.Patch01" />
+      <option name="METHOD_NAME" value="patch01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Post03.post03" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Api129DT" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="post_requests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="post_requests" />
+      <option name="MAIN_CLASS_NAME" value="post_requests.Post03" />
+      <option name="METHOD_NAME" value="post03" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -138,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Put01.put01b" />
-        <item itemvalue="JUnit.Put01" />
-        <item itemvalue="JUnit.Put01.put01" />
-        <item itemvalue="JUnit.Post01.post01Map" />
-        <item itemvalue="JUnit.Post01.post01" />
+        <item itemvalue="JUnit.Get10" />
+        <item itemvalue="JUnit.Get10.get10" />
+        <item itemvalue="JUnit.Post03.post03" />
+        <item itemvalue="JUnit.Patch01" />
+        <item itemvalue="JUnit.Patch01.patch01" />
       </list>
     </recent_temporary>
   </component>
