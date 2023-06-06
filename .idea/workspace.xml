@@ -5,17 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b7b8cc32-9e68-498d-bbab-69d364e28fc5" name="Changes" comment="Initial Commit">
-      <change afterPath="$PROJECT_DIR$/src/test/java/base_urls/GoRestBaseUrl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/get_requests/Get08.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/get_requests/Get09.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/get_requests/Get10.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/patch_requests/Patch01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pojos/JsonPlaceHolderPojo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/post_requests/Post02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/post_requests/Post03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test_data/HerOkuAppTestData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/base_urls/DummyRestApiBaseUrl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/delete_requests/Delete01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/get_requests/Get11.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/get_requests/Get12.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/get_requests/Get13_ObjectMapper_Map.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/get_requests/Get13_ObjectMapper_Pojo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pojos/BookingDatesPojo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pojos/BookingPojo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pojos/BookingResponsePojo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pojos/DummyRestApiDataPojo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pojos/DummyRestApiResponsePojo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pojos/GoRestDataPojo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pojos/GoRestPojo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/post_requests/Post04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/post_requests/Post05_ObjectMapper_Map.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/post_requests/Post05_ObjectMapper_Pojo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/put_requests/Put02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utils/ObjectMapperUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/base_urls/HerOkuAppBaseUrl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base_urls/HerOkuAppBaseUrl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/test_data/JsonPlaceHolderTestData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test_data/JsonPlaceHolderTestData.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,13 +66,32 @@
       <recent name="C:\Users\Efendy\IdeaProjects\Api129DT\src\test" />
       <recent name="C:\Users\Efendy\IdeaProjects\Api129DT" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Efendy\IdeaProjects\Api129DT\src\test\java" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="base_urls" />
       <recent name="get_requests" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Get10">
-    <configuration name="Get10" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.Put02.put02">
+    <configuration name="Delete01.delete01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Api129DT" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="delete_requests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="delete_requests" />
+      <option name="MAIN_CLASS_NAME" value="delete_requests.Delete01" />
+      <option name="METHOD_NAME" value="delete01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Get13_ObjectMapper_Map.get13" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Api129DT" />
       <extension name="coverage">
         <pattern>
@@ -72,13 +100,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="get_requests" />
-      <option name="MAIN_CLASS_NAME" value="get_requests.Get10" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="get_requests.Get13_ObjectMapper_Map" />
+      <option name="METHOD_NAME" value="get13" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Get10.get10" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Get13_ObjectMapper_Pojo.get13" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Api129DT" />
       <extension name="coverage">
         <pattern>
@@ -87,45 +116,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="get_requests" />
-      <option name="MAIN_CLASS_NAME" value="get_requests.Get10" />
-      <option name="METHOD_NAME" value="get10" />
+      <option name="MAIN_CLASS_NAME" value="get_requests.Get13_ObjectMapper_Pojo" />
+      <option name="METHOD_NAME" value="get13" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Patch01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Api129DT" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="patch_requests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="patch_requests" />
-      <option name="MAIN_CLASS_NAME" value="patch_requests.Patch01" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Patch01.patch01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Api129DT" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="patch_requests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="patch_requests" />
-      <option name="MAIN_CLASS_NAME" value="patch_requests.Patch01" />
-      <option name="METHOD_NAME" value="patch01" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Post03.post03" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Post05_ObjectMapper_Pojo.post05" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Api129DT" />
       <extension name="coverage">
         <pattern>
@@ -134,8 +132,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="post_requests" />
-      <option name="MAIN_CLASS_NAME" value="post_requests.Post03" />
-      <option name="METHOD_NAME" value="post03" />
+      <option name="MAIN_CLASS_NAME" value="post_requests.Post05_ObjectMapper_Pojo" />
+      <option name="METHOD_NAME" value="post05" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Put02.put02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Api129DT" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="put_requests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="put_requests" />
+      <option name="MAIN_CLASS_NAME" value="put_requests.Put02" />
+      <option name="METHOD_NAME" value="put02" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -143,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Get10" />
-        <item itemvalue="JUnit.Get10.get10" />
-        <item itemvalue="JUnit.Post03.post03" />
-        <item itemvalue="JUnit.Patch01" />
-        <item itemvalue="JUnit.Patch01.patch01" />
+        <item itemvalue="JUnit.Put02.put02" />
+        <item itemvalue="JUnit.Get13_ObjectMapper_Pojo.get13" />
+        <item itemvalue="JUnit.Get13_ObjectMapper_Map.get13" />
+        <item itemvalue="JUnit.Delete01.delete01" />
+        <item itemvalue="JUnit.Post05_ObjectMapper_Pojo.post05" />
       </list>
     </recent_temporary>
   </component>
