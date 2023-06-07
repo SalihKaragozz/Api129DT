@@ -4,6 +4,7 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class DummyRestApiResponsePojo {
+
     private String status;
     private DummyRestApiDataPojo data;
     private String message;

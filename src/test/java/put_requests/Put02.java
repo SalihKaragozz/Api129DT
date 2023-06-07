@@ -12,6 +12,7 @@ import static io.restassured.RestAssured.given;
 import static org.junit.Assert.assertEquals;
 
 public class Put02 extends DummyRestApiBaseUrl {
+
     /*
        URL: https://dummy.restapiexample.com/api/v1/update/21
        HTTP Request Method: PUT Request
@@ -96,5 +97,4 @@ public class Put02 extends DummyRestApiBaseUrl {
         assertEquals("success", actualData.getStatus());
 
     }
-
 }

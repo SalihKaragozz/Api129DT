@@ -9,7 +9,7 @@ import static io.restassured.RestAssured.given;
 import static org.junit.Assert.assertEquals;
 
 public class Post03 extends JsonPlaceHolderBaseUrl {
-     /*
+    /*
          Given
             https://jsonplaceholder.typicode.com/todos
             {
@@ -32,26 +32,25 @@ public class Post03 extends JsonPlaceHolderBaseUrl {
 
 
     @Test
-    public void post03(){
+    public void post03() {
         //Set the url
-        spec.pathParam("first","todos");
+        spec.pathParam("first", "todos");
 
-        // set the expected data
-       JsonPlaceHolderPojo expectedData = new JsonPlaceHolderPojo(55,"Tidy your room",false);
+        //Set the expected data
+        JsonPlaceHolderPojo expectedData = new JsonPlaceHolderPojo(55, "Tidy your room", false);
         System.out.println("expectedData = " + expectedData);
 
-        // send the Request and get the Response
-      Response response = given(spec).body(expectedData).post("{first}");
-      response.prettyPrint();
+        //Send the request and get the response
+        Response response = given(spec).body(expectedData).post("{first}");
+        response.prettyPrint();
 
-      // Do assertion
-      JsonPlaceHolderPojo actualData =  response.as(JsonPlaceHolderPojo.class);
+        //Do assertion
+        JsonPlaceHolderPojo actualData = response.as(JsonPlaceHolderPojo.class);
         System.out.println("actualData = " + actualData);
-        assertEquals(201,response.statusCode());
+
+        assertEquals(201, response.statusCode());
         assertEquals(expectedData.getUserId(), actualData.getUserId());
         assertEquals(expectedData.getTitle(), actualData.getTitle());
         assertEquals(expectedData.getCompleted(), actualData.getCompleted());
-
-
     }
 }

@@ -5,12 +5,12 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class JsonPlaceHolderPojo {
 
-    //1: private variablalar oluşturunuz
+    //1: private variable'lar oluşturunuz
     private Integer userId;
     private String title;
     private Boolean completed;
 
-    // parametreli ve parametresiz consructorlaar oluşturunuz
+    //2: Parametreli ve parametresiz constructor'lar oluşturunuz
     public JsonPlaceHolderPojo(Integer userId, String title, Boolean completed) {
         this.userId = userId;
         this.title = title;
@@ -20,7 +20,7 @@ public class JsonPlaceHolderPojo {
     public JsonPlaceHolderPojo() {
     }
 
-    //3: public getter ve setter oluşturunuz
+    //3: public getter ve setter'lar oluşturunuz
 
 
     public Integer getUserId() {
@@ -47,7 +47,7 @@ public class JsonPlaceHolderPojo {
         this.completed = completed;
     }
 
-    //4: to string methodunu oluşturunuz
+    //4: toString() methodunu oluşturunuz
 
     @Override
     public String toString() {
@@ -57,6 +57,5 @@ public class JsonPlaceHolderPojo {
                 ", completed=" + completed +
                 '}';
     }
+
 }
-
-

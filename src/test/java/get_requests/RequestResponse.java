@@ -27,11 +27,9 @@ public class RequestResponse {
     public static void main(String[] args) {
 
         //Get request nasıl yapılır:
-        String endPoint = "https://petstore.swagger.io/v2/pet/499071";
+        String endPoint = "https://petstore.swagger.io/v2/pet/9829946";
         Response response = given().get(endPoint);//io.restassured.RestAssured.given;
-        response.prettyPrint();//prettyPrint() methodu response'ı consola yazdırır
-
-
+        //response.prettyPrint();//prettyPrint() methodu response'ı consola yazdırır
 
         //Status code nasıl yazdırılır:
         System.out.println("Status Code: "+response.statusCode());
@@ -54,6 +52,7 @@ public class RequestResponse {
 
         //Time nasıl yazdırılır:
         System.out.println("\nTime: "+response.getTime());
+
 
     }
 }

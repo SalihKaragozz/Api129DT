@@ -3,8 +3,8 @@ package pojos;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 @JsonIgnoreProperties(ignoreUnknown = true)
-
 public class GoRestDataPojo {
+
     private String name;
     private String email;
     private String gender;
@@ -62,5 +62,3 @@ public class GoRestDataPojo {
                 '}';
     }
 }
-
-

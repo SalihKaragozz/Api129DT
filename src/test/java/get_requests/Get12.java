@@ -10,7 +10,8 @@ import static io.restassured.RestAssured.given;
 import static org.junit.Assert.assertEquals;
 
 public class Get12 extends GoRestBaseUrl {
-        /*
+
+    /*
         Given
             https://gorest.co.in/public/v1/users/2587
         When
@@ -30,7 +31,6 @@ public class Get12 extends GoRestBaseUrl {
                     }
                 }
     */
-
 
     @Test
     public void get12() {

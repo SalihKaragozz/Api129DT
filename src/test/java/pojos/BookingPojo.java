@@ -3,8 +3,8 @@ package pojos;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 @JsonIgnoreProperties(ignoreUnknown = true)
-
 public class BookingPojo {
+
     private String firstname;
     private String lastname;
     private Integer totalprice;

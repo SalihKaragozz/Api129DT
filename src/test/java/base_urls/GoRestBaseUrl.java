@@ -9,13 +9,9 @@ public class GoRestBaseUrl {
 
     protected RequestSpecification spec;
 
-
     @Before
-    public void setUp(){
-
-        spec = new RequestSpecBuilder().setContentType(ContentType.JSON).setBaseUri("https://gorest.co.in/public/v1/").build();
-
+    public void setUp() {
+        spec = new RequestSpecBuilder().setBaseUri("https://gorest.co.in/public/v1/").build();
     }
-
 
 }

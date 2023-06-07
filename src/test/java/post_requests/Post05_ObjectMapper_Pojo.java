@@ -11,51 +11,49 @@ import static io.restassured.RestAssured.given;
 import static org.junit.Assert.assertEquals;
 
 public class Post05_ObjectMapper_Pojo extends JsonPlaceHolderBaseUrl {
-    /*
-    Given
-      1) https://jsonplaceholder.typicode.com/todos
-      2) {
-            "userId": 55,
-            "title": "Tidy your room",
-            "completed": false
-          }
+
+         /*
+         Given
+           1) https://jsonplaceholder.typicode.com/todos
+           2) {
+                 "userId": 55,
+                 "title": "Tidy your room",
+                 "completed": false
+               }
 
 
-       I send POST Request to the Url
-   Then
-       Status code is 201
-   And
-       response body is like  {
-                               "userId": 55,
-                               "title": "Tidy your room",
-                               "completed": false,
-                               "id": 201
-                               }
-*/
-    @Test// En iyi yöntem: Pojo class ile ObjectMapper ın beraber kullanılmasıdır.
+            I send POST Request to the Url
+        Then
+            Status code is 201
+        And
+            response body is like  {
+                                    "userId": 55,
+                                    "title": "Tidy your room",
+                                    "completed": false,
+                                    "id": 201
+                                    }
+     */
+    @Test//En iyi yöntem: Pojo class ile ObjectMapper
     public void post05(){
         //Set the url
         spec.pathParam("first","todos");
 
         //Set the expected data
-     JsonPlaceHolderPojo expectedData = new JsonPlaceHolderPojo(55,"Tidy your room",false);
+        JsonPlaceHolderPojo expectedData = new JsonPlaceHolderPojo(55,"Tidy your room",false);
         System.out.println("expectedData = " + expectedData);
 
+        //Send the request and get the response
+        Response response = given(spec).body(expectedData).post("{first}");
+        response.prettyPrint();
 
-        // send the request and get the response
-      Response response = given(spec).body(expectedData).post("{first}");
-      response.prettyPrint();
-
-      // Do Asserion
-      JsonPlaceHolderPojo actualData = ObjectMapperUtils.convertJsonToJava(response.asString(),JsonPlaceHolderPojo.class);
+        //Do assertion
+        JsonPlaceHolderPojo actualData = ObjectMapperUtils.convertJsonToJava(response.asString(), JsonPlaceHolderPojo.class);
         System.out.println("actualData = " + actualData);
 
-        assertEquals(201,response.statusCode());
-        assertEquals(expectedData.getUserId(), actualData.getUserId());
-        assertEquals(expectedData.getTitle(), actualData.getTitle());
-        assertEquals(expectedData.getUserId(), actualData.getUserId());
-
+        assertEquals(201, response.statusCode());
+        assertEquals(expectedData.getUserId(),actualData.getUserId());
+        assertEquals(expectedData.getTitle(),actualData.getTitle());
+        assertEquals(expectedData.getCompleted(),actualData.getCompleted());
 
     }
-
 }

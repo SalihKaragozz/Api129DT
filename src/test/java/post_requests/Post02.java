@@ -13,7 +13,7 @@ import static io.restassured.RestAssured.given;
 import static org.junit.Assert.assertEquals;
 
 public class Post02 extends HerOkuAppBaseUrl {
-         /*
+        /*
     Given
         1) https://restful-booker.herokuapp.com/booking
         2) {
@@ -25,6 +25,7 @@ public class Post02 extends HerOkuAppBaseUrl {
                  "checkin": "2021-09-09",
                  "checkout": "2021-09-21"
               }
+
            }
     When
         I send POST Request to the Url
@@ -46,23 +47,22 @@ public class Post02 extends HerOkuAppBaseUrl {
  */
 
     @Test
-    public void post02(){
+    public void post02() {
         //Set the url
-
-        spec.pathParam("first","booking");
+        spec.pathParam("first", "booking");
 
         //Set the expected data
-     HerOkuAppTestData obj =   new HerOkuAppTestData();
-    Map<String,String> bookingdatesMap = obj.bookingdatesMapMethod("2021-09-09","2021-09-21");
-    Map<String, Object> expectedData =  obj.expecdetDataMapMethod("John","Doe",111,true,bookingdatesMap,null);
-        System.out.println("expecdetData = " + expectedData);
+        HerOkuAppTestData obj = new HerOkuAppTestData();
+        Map<String, String> bookingdatesMap = obj.bookingdatesMapMethod("2021-09-09", "2021-09-21");
+        Map<String, Object> expectedData = obj.expectedDataMapMethod("John", "Doe", 11111, true, bookingdatesMap, null);
 
-        // send the request and get the response
-     Response response = given(spec).body(expectedData).post("{first}");
-     response.prettyPrint();
+        System.out.println("expectedData = " + expectedData);
 
+        //Send the request and get the response
+        Response response = given(spec).body(expectedData).post("{first}");
+        response.prettyPrint();
 
-     // Do Assertion
+        //Do assertion
         Map<String, Object> actualData = response.as(HashMap.class);
         System.out.println("actualData = " + actualData);
 
@@ -75,7 +75,4 @@ public class Post02 extends HerOkuAppBaseUrl {
         assertEquals(bookingdatesMap.get("checkout"), ((Map) ((Map) actualData.get("booking")).get("bookingdates")).get("checkout"));
 
     }
-
-
-
 }

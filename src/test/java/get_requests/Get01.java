@@ -6,21 +6,22 @@ import org.junit.Test;
 import static io.restassured.RestAssured.given;
 
 public class Get01 {
-                  /*
-           Given
-               https://restful-booker.herokuapp.com/booking/55
-           When
-               User sends a GET Request to the url
-           Then
-               HTTP Status Code should be 200
-           And
-               Content Type should be "application/json"
-           And
-               Status Line should be "HTTP/1.1 200 OK"
-        */
+
+        /*
+        Given
+            https://restful-booker.herokuapp.com/booking/55
+        When
+            User sends a GET Request to the url
+        Then
+            HTTP Status Code should be 200
+        And
+            Content Type should be "application/json"
+        And
+            Status Line should be "HTTP/1.1 200 OK"
+     */
 
     @Test
-    public void get01(){
+    public void get01() {
 
         //1) Set the URl
         String url = "https://restful-booker.herokuapp.com/booking/55";
@@ -32,12 +33,11 @@ public class Get01 {
         response.prettyPrint();
 
         //4) Do assertion
-        response.then().statusCode(200).contentType("application/json").statusLine("HTTP/1.1 200 OK");
-
-
-
-
-
+        response.then()//then() methodu ile response'ı doğrula
+                .statusCode(200)//HTTP Status Code should be 200
+                .contentType("application/json")//Content Type should be "application/json"
+                .statusLine("HTTP/1.1 200 OK");//Status Line should be "HTTP/1.1 200 OK"
 
     }
+
 }

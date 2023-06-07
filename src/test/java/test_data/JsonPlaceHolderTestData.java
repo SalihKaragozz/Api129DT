@@ -17,18 +17,14 @@ public class JsonPlaceHolderTestData {
         if (completed != null){
             expectedData.put("completed", completed);
         }
-
         return expectedData;
     }
-
 
     //JsonPlaceHolder json datasını String'e çeviren method:
     public static String expectedDataInString(int userId, String title,boolean completed){
 
         return "{ \"userId\": "+userId+", \"title\": \""+title+"\", \"completed\": "+completed+" }";
 
-
     }
-
 }
 
