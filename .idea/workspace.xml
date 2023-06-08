@@ -5,16 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b7b8cc32-9e68-498d-bbab-69d364e28fc5" name="Changes" comment="Initial Commit">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/base_urls/GmiBankBaseUrl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/gmi_bank/PostCountry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/herokuapp_smoketest/C05DeleteRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/herokuapp_smoketest/C06_GetRequest_Negative.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pojos/Country.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pojos/State.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/gmi_bank/GetCustomer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pojos/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pojos/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pojos/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utils/AuthenticationGmiBank.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/herokuapp_smoketest/C04_PatchRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/herokuapp_smoketest/C04_PatchRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/herokuapp_smoketest/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/herokuapp_smoketest/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/base_urls/GmiBankBaseUrl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base_urls/GmiBankBaseUrl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/gmi_bank/PostCountry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/gmi_bank/PostCountry.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +67,7 @@
       <recent name="get_requests" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PostCountry.post01">
+  <component name="RunManager" selected="JUnit.GetCustomer.getCustomer">
     <configuration name="C04_PatchRequest.patch01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Api129DT" />
       <extension name="coverage">
@@ -102,6 +100,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GetCustomer.getCustomer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Api129DT" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gmi_bank.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="gmi_bank" />
+      <option name="MAIN_CLASS_NAME" value="gmi_bank.GetCustomer" />
+      <option name="METHOD_NAME" value="getCustomer" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PostCountry.post01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Api129DT" />
       <extension name="coverage">
@@ -114,21 +128,6 @@
       <option name="MAIN_CLASS_NAME" value="gmi_bank.PostCountry" />
       <option name="METHOD_NAME" value="post01" />
       <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Runner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Api129DTbbb" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="herokuapp_smoketest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="herokuapp_smoketest" />
-      <option name="MAIN_CLASS_NAME" value="herokuapp_smoketest.Runner" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -150,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GetCustomer.getCustomer" />
         <item itemvalue="JUnit.PostCountry.post01" />
         <item itemvalue="JUnit.Runner (1)" />
         <item itemvalue="JUnit.C04_PatchRequest.patch01" />
         <item itemvalue="JUnit.C05DeleteRequest.delete01" />
-        <item itemvalue="JUnit.Runner" />
       </list>
     </recent_temporary>
   </component>

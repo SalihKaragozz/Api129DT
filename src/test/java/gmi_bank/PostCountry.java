@@ -6,11 +6,13 @@ import io.restassured.response.Response;
 import org.junit.Test;
 import pojos.Country;
 import pojos.State;
+import utils.ObjectMapperUtils;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import static io.restassured.RestAssured.given;
+import static org.junit.Assert.assertEquals;
 
 public class PostCountry extends GmiBankBaseUrl {
     /*
@@ -70,25 +72,34 @@ public class PostCountry extends GmiBankBaseUrl {
         //Set the url
         spec.pathParams("first", "api", "second", "tp-countries");
 
-
-        // set the expected data
-        State state1 = new State(1,"Apple");
-        State state2 = new State(1,"Orange");
-        State state3 = new State(1,"Pear");
-
+        //Set the expected data
+        State state1 = new State(1, "Apple");
+        State state2 = new State(2, "Orange");
+        State state3 = new State(3, "Pear");
         List<State> stateList = new ArrayList<>();
         stateList.add(state1);
         stateList.add(state2);
         stateList.add(state3);
 
-        Country expectedData = new Country("Banana",stateList);
+        Country expectedData = new Country("Banana", stateList);
         System.out.println("expectedData = " + expectedData);
 
-        // send the request and get the response
-     Response response = given(spec).post("{first}/{second}");
-     response.prettyPrint();
+        //Send the request and get the response
+        Response response = given(spec).body(expectedData).post("{first}/{second}");
+        response.prettyPrint();
 
+        //Do Assertion
+      Country actualData = ObjectMapperUtils.convertJsonToJava(response.asString(), Country.class);
+        System.out.println("actualData = " + actualData);
 
+        assertEquals(201,response.statusCode());
+        assertEquals(expectedData.getName(), actualData.getName());
+        assertEquals(state1.getName(), actualData.getStates().get(0).getName());
+        assertEquals(state1.getId(), actualData.getStates().get(0).getId());
+        assertEquals(state2.getName(), actualData.getStates().get(1).getName());
+        assertEquals(state2.getId(), actualData.getStates().get(1).getId());
+        assertEquals(state3.getName(), actualData.getStates().get(2).getName());
+        assertEquals(state3.getId(), actualData.getStates().get(2).getId());
 
 
     }
